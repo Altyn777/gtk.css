@@ -24,3 +24,15 @@ row.activatable.has-open-popup,
 row.activatable:active {
   transition: none;
 }
+
+scrolledwindow > overshoot.top,
+scrolledwindow > overshoot.bottom,
+scrolledwindow > overshoot.left,
+scrolledwindow > overshoot.right,
+scrolledwindow > undershoot.top,
+scrolledwindow > undershoot.bottom,
+scrolledwindow > undershoot.left,
+scrolledwindow > undershoot.right {
+  background: none;
+  box-shadow: none;
+}
