@@ -1,0 +1,26 @@
+.nautilus-window listview row:hover,
+.nautilus-window listview row:active,
+.nautilus-window listview row:focus {
+  background-color: alpha(#f06292, 0.15);
+}
+
+.nautilus-window listview row:selected {
+  background-color: alpha(#f06292, 0.35);
+}
+
+scrollbar > range > trough > slider {
+  background-color: alpha(#ec407a, 0.5);
+}
+
+scrollbar > range > trough > slider:hover {
+  background-color: alpha(#ec407a, 0.8);
+}
+
+columnview.view > header > button.has-open-popup,
+treeview.view > header > button.has-open-popup,
+columnview.view > header > button:active,
+treeview.view > header > button:active,
+row.activatable.has-open-popup,
+row.activatable:active {
+  transition: none;
+}
